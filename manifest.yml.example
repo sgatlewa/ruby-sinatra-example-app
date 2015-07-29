@@ -4,7 +4,7 @@ applications:
   memory: 128M
   instances: 1
   host: ruby-sinatra-example-app
-  domain: de.a9sapp.eu
-  buildpack: https://github.com/cloudfoundry/ruby-buildpack#v1.4.2
+  domain: api.run.pivotal.io
+  buildpack: https://github.com/sgatlewa/ruby-buildpack#v1.4.2
   path: .
   command: ruby app.rb
